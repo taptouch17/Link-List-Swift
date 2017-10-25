@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65F8D47A1ECB8E5900039961 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F8D4791ECB8E5900039961 /* main.swift */; };
+		65F8D4811ECB911800039961 /* Link List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F8D4801ECB911800039961 /* Link List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		65F8D4761ECB8E5900039961 /* Link List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Link List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F8D4791ECB8E5900039961 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		65F8D4801ECB911800039961 /* Link List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Link List.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				65F8D4791ECB8E5900039961 /* main.swift */,
+				65F8D4801ECB911800039961 /* Link List.swift */,
 			);
 			path = "Link List";
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F8D4811ECB911800039961 /* Link List.swift in Sources */,
 				65F8D47A1ECB8E5900039961 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,8 +225,10 @@
 		65F8D47E1ECB8E5900039961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 57LH36PK7B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -230,8 +236,10 @@
 		65F8D47F1ECB8E5900039961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 57LH36PK7B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
